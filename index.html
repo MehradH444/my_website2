@@ -1,797 +1,2621 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="سامانه حرفه‌ای حمل و نقل و باربری">
-    <meta name="theme-color" content="#0f172a">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <title>باربری نوین | حمل و نقل حرفه‌ای</title>
+    <meta
+        name="description"
+        content="سامانه حرفه‌ای خدمات باربری، حمل بار، ثبت سفارش، استعلام قیمت و رهگیری مرسولات."
+    >
 
-    <link rel="stylesheet" href="style.css">
+    <meta
+        name="keywords"
+        content="باربری, حمل بار, حمل و نقل, رهگیری بار, ثبت سفارش باربری, کامیون, تریلی, نیسان, خاور"
+    >
+
+    <meta
+        name="theme-color"
+        content="#071326"
+    >
+
+    <title>
+        باربری | حمل‌ونقل سریع، مطمئن و حرفه‌ای
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+    <!-- =====================================================
+         نوار اطلاع‌رسانی بالای سایت
+    ====================================================== -->
 
-<header class="header">
+    <div class="top-bar">
 
-    <div class="container nav">
+        <div class="container top-bar-content">
 
-        <a href="#" class="logo">
-            <span class="logo-icon">🚛</span>
-            <span>باربری <strong>نوین</strong></span>
-        </a>
+            <div class="top-bar-right">
 
-        <nav class="menu">
-            <a href="#home">خانه</a>
-            <a href="#services">خدمات</a>
-            <a href="#tracking">رهگیری بار</a>
-            <a href="#about">درباره ما</a>
-            <a href="#contact">تماس با ما</a>
-        </nav>
+                <span>
+                    🚚 سامانه هوشمند حمل‌ونقل و باربری
+                </span>
 
-        <a href="#request" class="header-btn">
-            ثبت درخواست حمل
-        </a>
+            </div>
 
-        <button class="mobile-menu" aria-label="منو">
-            ☰
-        </button>
+            <div class="top-bar-left">
 
-    </div>
-
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<main>
-
-<section class="hero" id="home">
-
-    <div class="hero-overlay"></div>
-
-    <div class="container hero-content">
-
-        <div class="hero-text">
-
-            <span class="badge">
-                🚚 حمل‌ونقل سریع و مطمئن
-            </span>
-
-            <h1>
-                بار شما،
-                <span>با خیال راحت</span>
-                به مقصد می‌رسد.
-            </h1>
-
-            <p>
-                ارائه خدمات حرفه‌ای حمل بار، ارسال کالا،
-                جابه‌جایی بین‌شهری و مدیریت هوشمند سفارش‌ها
-                با سرعت، امنیت و پشتیبانی واقعی.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#request" class="btn btn-primary">
-                    📦 درخواست حمل
+                <a href="tel:+980000000000">
+                    📞 پشتیبانی: ۰۲۱-۰۰۰۰۰۰۰۰
                 </a>
 
-                <a href="#tracking" class="btn btn-outline">
-                    🔎 رهگیری بار
+                <span class="top-bar-divider">
+                    |
+                </span>
+
+                <span>
+                    پاسخگویی ۲۴ ساعته
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <!-- لوگو -->
+
+            <a
+                href="#home"
+                class="logo"
+                aria-label="صفحه اصلی"
+            >
+
+                <span class="logo-icon">
+                    🚛
+                </span>
+
+                <span class="logo-text">
+                    باربری
+                </span>
+
+            </a>
+
+
+            <!-- منوی اصلی -->
+
+            <nav
+                class="navigation"
+                id="mainNavigation"
+                aria-label="منوی اصلی"
+            >
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    خانه
+                </a>
+
+                <a
+                    href="#services"
+                    class="nav-link"
+                >
+                    خدمات
+                </a>
+
+                <a
+                    href="#vehicles"
+                    class="nav-link"
+                >
+                    ناوگان
+                </a>
+
+                <a
+                    href="#tracking"
+                    class="nav-link"
+                >
+                    رهگیری بار
+                </a>
+
+                <a
+                    href="#how-it-works"
+                    class="nav-link"
+                >
+                    چگونه کار می‌کند؟
+                </a>
+
+                <a
+                    href="#faq"
+                    class="nav-link"
+                >
+                    سوالات متداول
+                </a>
+
+                <a
+                    href="#contact"
+                    class="nav-link"
+                >
+                    تماس با ما
+                </a>
+
+            </nav>
+
+
+            <!-- دکمه‌های حساب کاربری -->
+
+            <div class="header-actions">
+
+                <a
+                    href="#login"
+                    class="header-login"
+                >
+                    ورود
+                </a>
+
+                <a
+                    href="#order"
+                    class="header-order-button"
+                >
+                    ثبت سفارش
                 </a>
 
             </div>
 
-            <div class="hero-trust">
 
-                <div>
-                    <strong>+۱۰</strong>
-                    <span>سال تجربه</span>
-                </div>
+            <!-- دکمه منوی موبایل -->
 
-                <div>
-                    <strong>+۲۵K</strong>
-                    <span>بار موفق</span>
-                </div>
-
-                <div>
-                    <strong>۹۸٪</strong>
-                    <span>رضایت مشتری</span>
-                </div>
-
-            </div>
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="باز کردن منو"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- ================= SERVICES ================= -->
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
 
-<section class="section" id="services">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span>خدمات ما</span>
-
-            <h2>
-                راهکار کامل برای حمل بار
-            </h2>
-
-            <p>
-                از ثبت درخواست تا تحویل بار، همه چیز را حرفه‌ای مدیریت کنید.
-            </p>
-
-        </div>
+    <main>
 
 
-        <div class="services-grid">
+        <!-- =================================================
+             HERO
+        ================================================== -->
 
-            <article class="service-card">
+        <section
+            id="home"
+            class="hero"
+        >
 
-                <div class="service-icon">🚛</div>
+            <div class="hero-background-shape hero-shape-one"></div>
 
-                <h3>حمل بار بین‌شهری</h3>
+            <div class="hero-background-shape hero-shape-two"></div>
 
-                <p>
-                    ارسال انواع بار به شهرهای مختلف با ناوگان مجهز.
-                </p>
+            <div class="container hero-container">
 
-                <a href="#request">درخواست خدمت ←</a>
+                <div class="hero-content">
 
-            </article>
+                    <div class="hero-badge">
+                        <span class="hero-badge-dot"></span>
 
-
-            <article class="service-card">
-
-                <div class="service-icon">📦</div>
-
-                <h3>حمل خرده‌بار</h3>
-
-                <p>
-                    راهکاری اقتصادی برای ارسال بسته‌ها و بارهای کوچک.
-                </p>
-
-                <a href="#request">درخواست خدمت ←</a>
-
-            </article>
+                        حمل‌ونقل هوشمند و مطمئن
+                    </div>
 
 
-            <article class="service-card">
+                    <h1 class="hero-title">
 
-                <div class="service-icon">🏢</div>
+                        بار شما،
 
-                <h3>حمل بار سازمانی</h3>
+                        <span>
+                            با خیال راحت
+                        </span>
 
-                <p>
-                    خدمات حمل‌ونقل ویژه شرکت‌ها و سازمان‌ها.
-                </p>
+                        به مقصد می‌رسد.
 
-                <a href="#request">درخواست خدمت ←</a>
-
-            </article>
+                    </h1>
 
 
-            <article class="service-card">
+                    <p class="hero-description">
 
-                <div class="service-icon">⚡</div>
+                        ثبت سفارش حمل، استعلام قیمت و
+                        رهگیری بار را در یک سامانه حرفه‌ای
+                        و سریع تجربه کنید.
 
-                <h3>ارسال سریع</h3>
-
-                <p>
-                    اولویت‌بندی سفارش‌های فوری برای تحویل سریع‌تر.
-                </p>
-
-                <a href="#request">درخواست خدمت ←</a>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
+                    </p>
 
 
-<!-- ================= TRACKING ================= -->
+                    <div class="hero-actions">
 
-<section class="tracking-section" id="tracking">
+                        <a
+                            href="#order"
+                            class="btn btn-primary"
+                        >
+                            🚚 ثبت سفارش حمل
+                        </a>
 
-    <div class="container">
+                        <a
+                            href="#tracking"
+                            class="btn btn-outline-light"
+                        >
+                            🔎 رهگیری بار
+                        </a>
 
-        <div class="tracking-box">
-
-            <div class="tracking-text">
-
-                <span>رهگیری آنلاین</span>
-
-                <h2>
-                    بار خود را در هر لحظه دنبال کنید
-                </h2>
-
-                <p>
-                    کد رهگیری خود را وارد کنید تا آخرین وضعیت مرسوله
-                    خود را مشاهده کنید.
-                </p>
-
-            </div>
+                    </div>
 
 
-            <form class="tracking-form">
+                    <div class="hero-trust">
 
-                <label for="tracking-code">
-                    کد رهگیری
-                </label>
+                        <div class="hero-trust-item">
 
-                <div class="tracking-input">
+                            <strong>
+                                ۲۴/۷
+                            </strong>
 
-                    <input
-                        id="tracking-code"
-                        type="text"
-                        placeholder="مثلاً NV-125847"
+                            <span>
+                                پشتیبانی
+                            </span>
+
+                        </div>
+
+                        <div class="hero-trust-divider"></div>
+
+                        <div class="hero-trust-item">
+
+                            <strong>
+                                +۱۰,۰۰۰
+                            </strong>
+
+                            <span>
+                                سفارش موفق
+                            </span>
+
+                        </div>
+
+                        <div class="hero-trust-divider"></div>
+
+                        <div class="hero-trust-item">
+
+                            <strong>
+                                +۵۰۰
+                            </strong>
+
+                            <span>
+                                ناوگان فعال
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- کارت استعلام سریع -->
+
+                <div class="hero-order-card">
+
+                    <div class="hero-card-header">
+
+                        <div>
+
+                            <span class="hero-card-label">
+                                شروع سریع
+                            </span>
+
+                            <h2>
+                                برای حمل بار آماده‌اید؟
+                            </h2>
+
+                        </div>
+
+                        <div class="hero-card-icon">
+                            📦
+                        </div>
+
+                    </div>
+
+
+                    <form
+                        id="quickOrderForm"
+                        class="quick-order-form"
                     >
 
-                    <button type="submit">
-                        رهگیری بار
+                        <div class="quick-form-row">
+
+                            <div class="form-group">
+
+                                <label for="quickOrigin">
+                                    مبدأ
+                                </label>
+
+                                <div class="input-icon-wrapper">
+
+                                    <span>
+                                        📍
+                                    </span>
+
+                                    <input
+                                        type="text"
+                                        id="quickOrigin"
+                                        name="origin"
+                                        placeholder="مثلاً تهران"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="quickDestination">
+                                    مقصد
+                                </label>
+
+                                <div class="input-icon-wrapper">
+
+                                    <span>
+                                        📍
+                                    </span>
+
+                                    <input
+                                        type="text"
+                                        id="quickDestination"
+                                        name="destination"
+                                        placeholder="مثلاً مشهد"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="quick-form-row">
+
+                            <div class="form-group">
+
+                                <label for="quickCargo">
+                                    نوع بار
+                                </label>
+
+                                <select
+                                    id="quickCargo"
+                                    name="cargo"
+                                    required
+                                >
+
+                                    <option value="">
+                                        انتخاب نوع بار
+                                    </option>
+
+                                    <option value="general">
+                                        بار عمومی
+                                    </option>
+
+                                    <option value="industrial">
+                                        بار صنعتی
+                                    </option>
+
+                                    <option value="food">
+                                        مواد غذایی
+                                    </option>
+
+                                    <option value="fragile">
+                                        بار حساس و شکستنی
+                                    </option>
+
+                                    <option value="other">
+                                        سایر
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="quickVehicle">
+                                    نوع خودرو
+                                </label>
+
+                                <select
+                                    id="quickVehicle"
+                                    name="vehicle"
+                                    required
+                                >
+
+                                    <option value="">
+                                        انتخاب خودرو
+                                    </option>
+
+                                    <option value="pickup">
+                                        وانت
+                                    </option>
+
+                                    <option value="nissan">
+                                        نیسان
+                                    </option>
+
+                                    <option value="khavar">
+                                        خاور
+                                    </option>
+
+                                    <option value="truck">
+                                        کامیون
+                                    </option>
+
+                                    <option value="trailer">
+                                        تریلی
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary btn-full"
+                        >
+                            استعلام و ادامه سفارش
+                            <span>
+                                ←
+                            </span>
+                        </button>
+
+
+                        <p class="quick-form-note">
+                            ثبت سفارش اولیه رایگان است.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             STATS
+        ================================================== -->
+
+        <section class="stats-section">
+
+            <div class="container">
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon">
+                            🚚
+                        </div>
+
+                        <strong>
+                            +۵۰۰
+                        </strong>
+
+                        <span>
+                            خودروی فعال
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon">
+                            📦
+                        </div>
+
+                        <strong>
+                            +۱۰,۰۰۰
+                        </strong>
+
+                        <span>
+                            بار جابه‌جا شده
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon">
+                            🗺️
+                        </div>
+
+                        <strong>
+                            +۱۰۰
+                        </strong>
+
+                        <span>
+                            شهر تحت پوشش
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon">
+                            ⭐
+                        </div>
+
+                        <strong>
+                            ۴.۹
+                        </strong>
+
+                        <span>
+                            رضایت مشتریان
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SERVICES
+        ================================================== -->
+
+        <section
+            id="services"
+            class="section services-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        خدمات ما
+                    </span>
+
+                    <h2>
+                        هر چیزی که برای حمل بار نیاز دارید
+                    </h2>
+
+                    <p>
+                        تمام مراحل حمل بار را از ثبت سفارش
+                        تا تحویل نهایی، ساده و قابل پیگیری کنید.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            📦
+                        </div>
+
+                        <span class="service-number">
+                            01
+                        </span>
+
+                        <h3>
+                            ثبت سفارش حمل
+                        </h3>
+
+                        <p>
+                            اطلاعات بار خود را وارد کنید و
+                            درخواست حمل خود را در چند مرحله ثبت کنید.
+                        </p>
+
+                        <a
+                            href="#order"
+                            class="service-link"
+                        >
+                            ثبت سفارش
+                            ←
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            💰
+                        </div>
+
+                        <span class="service-number">
+                            02
+                        </span>
+
+                        <h3>
+                            استعلام قیمت
+                        </h3>
+
+                        <p>
+                            قبل از ثبت نهایی، هزینه تقریبی حمل
+                            بار خود را محاسبه و بررسی کنید.
+                        </p>
+
+                        <a
+                            href="#price"
+                            class="service-link"
+                        >
+                            محاسبه قیمت
+                            ←
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🔎
+                        </div>
+
+                        <span class="service-number">
+                            03
+                        </span>
+
+                        <h3>
+                            رهگیری بار
+                        </h3>
+
+                        <p>
+                            با استفاده از کد رهگیری، وضعیت
+                            سفارش خود را در هر لحظه مشاهده کنید.
+                        </p>
+
+                        <a
+                            href="#tracking"
+                            class="service-link"
+                        >
+                            رهگیری بار
+                            ←
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🚛
+                        </div>
+
+                        <span class="service-number">
+                            04
+                        </span>
+
+                        <h3>
+                            ناوگان متنوع
+                        </h3>
+
+                        <p>
+                            متناسب با نوع و حجم بار، خودروی
+                            مناسب برای حمل انتخاب کنید.
+                        </p>
+
+                        <a
+                            href="#vehicles"
+                            class="service-link"
+                        >
+                            مشاهده ناوگان
+                            ←
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🛡️
+                        </div>
+
+                        <span class="service-number">
+                            05
+                        </span>
+
+                        <h3>
+                            حمل مطمئن
+                        </h3>
+
+                        <p>
+                            فرآیند حمل با تمرکز بر امنیت،
+                            نظم و تحویل صحیح بار انجام می‌شود.
+                        </p>
+
+                        <a
+                            href="#about"
+                            class="service-link"
+                        >
+                            بیشتر بدانید
+                            ←
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🎧
+                        </div>
+
+                        <span class="service-number">
+                            06
+                        </span>
+
+                        <h3>
+                            پشتیبانی
+                        </h3>
+
+                        <p>
+                            در تمام مراحل ثبت و حمل سفارش،
+                            تیم پشتیبانی همراه شماست.
+                        </p>
+
+                        <a
+                            href="#contact"
+                            class="service-link"
+                        >
+                            تماس با پشتیبانی
+                            ←
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TRACKING
+        ================================================== -->
+
+        <section
+            id="tracking"
+            class="tracking-section"
+        >
+
+            <div class="container">
+
+                <div class="tracking-box">
+
+                    <div class="tracking-content">
+
+                        <span class="section-kicker light">
+                            رهگیری آنلاین
+                        </span>
+
+                        <h2>
+                            بار خود را همین حالا رهگیری کنید
+                        </h2>
+
+                        <p>
+                            کد رهگیری سفارش خود را وارد کنید
+                            تا آخرین وضعیت بار نمایش داده شود.
+                        </p>
+
+                    </div>
+
+
+                    <form
+                        id="trackingForm"
+                        class="tracking-form"
+                    >
+
+                        <label
+                            for="trackingCode"
+                            class="sr-only"
+                        >
+                            کد رهگیری
+                        </label>
+
+                        <input
+                            type="text"
+                            id="trackingCode"
+                            name="trackingCode"
+                            placeholder="کد رهگیری را وارد کنید"
+                            autocomplete="off"
+                            required
+                        >
+
+                        <button
+                            type="submit"
+                            class="btn btn-white"
+                        >
+                            رهگیری بار
+                        </button>
+
+                    </form>
+
+
+                    <div
+                        id="trackingResult"
+                        class="tracking-result"
+                        aria-live="polite"
+                    ></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             VEHICLES
+        ================================================== -->
+
+        <section
+            id="vehicles"
+            class="section vehicles-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        ناوگان حمل
+                    </span>
+
+                    <h2>
+                        خودروی مناسب برای هر نوع بار
+                    </h2>
+
+                    <p>
+                        از بارهای سبک شهری تا محموله‌های سنگین،
+                        گزینه مناسب حمل را انتخاب کنید.
+                    </p>
+
+                </div>
+
+
+                <div class="vehicles-grid">
+
+                    <article class="vehicle-card">
+
+                        <div class="vehicle-image vehicle-pickup">
+                            🚙
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <span class="vehicle-tag">
+                                سبک
+                            </span>
+
+                            <h3>
+                                وانت
+                            </h3>
+
+                            <p>
+                                مناسب حمل بارهای سبک و
+                                جابه‌جایی‌های شهری.
+                            </p>
+
+                            <div class="vehicle-meta">
+
+                                <span>
+                                    ⚖️ تا ۱ تن
+                                </span>
+
+                                <span>
+                                    📍 شهری
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="vehicle-card">
+
+                        <div class="vehicle-image vehicle-nissan">
+                            🚚
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <span class="vehicle-tag">
+                                شهری
+                            </span>
+
+                            <h3>
+                                نیسان
+                            </h3>
+
+                            <p>
+                                انتخابی مناسب برای حمل
+                                بارهای متوسط.
+                            </p>
+
+                            <div class="vehicle-meta">
+
+                                <span>
+                                    ⚖️ تا ۲ تن
+                                </span>
+
+                                <span>
+                                    🛣️ شهری و بین‌شهری
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="vehicle-card">
+
+                        <div class="vehicle-image vehicle-khavar">
+                            🚛
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <span class="vehicle-tag">
+                                متوسط
+                            </span>
+
+                            <h3>
+                                خاور
+                            </h3>
+
+                            <p>
+                                مناسب بارهای حجیم و
+                                محموله‌های متوسط.
+                            </p>
+
+                            <div class="vehicle-meta">
+
+                                <span>
+                                    ⚖️ تا ۶ تن
+                                </span>
+
+                                <span>
+                                    🛣️ بین‌شهری
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="vehicle-card">
+
+                        <div class="vehicle-image vehicle-truck">
+                            🚛
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <span class="vehicle-tag">
+                                سنگین
+                            </span>
+
+                            <h3>
+                                کامیون
+                            </h3>
+
+                            <p>
+                                برای حمل محموله‌های سنگین
+                                و بزرگ در مسیرهای مختلف.
+                            </p>
+
+                            <div class="vehicle-meta">
+
+                                <span>
+                                    ⚖️ تا ۱۰ تن
+                                </span>
+
+                                <span>
+                                    🛣️ بین‌شهری
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="vehicle-card">
+
+                        <div class="vehicle-image vehicle-trailer">
+                            🚚
+                        </div>
+
+                        <div class="vehicle-content">
+
+                            <span class="vehicle-tag">
+                                فوق سنگین
+                            </span>
+
+                            <h3>
+                                تریلی
+                            </h3>
+
+                            <p>
+                                مناسب محموله‌های بسیار حجیم
+                                و حمل‌ونقل تخصصی.
+                            </p>
+
+                            <div class="vehicle-meta">
+
+                                <span>
+                                    ⚖️ بار سنگین
+                                </span>
+
+                                <span>
+                                    🛣️ مسیرهای طولانی
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="vehicle-card vehicle-special">
+
+                        <div class="vehicle-special-content">
+
+                            <span class="vehicle-special-icon">
+                                ✨
+                            </span>
+
+                            <h3>
+                                بار خاص دارید؟
+                            </h3>
+
+                            <p>
+                                برای بارهای ویژه و نیازهای
+                                حمل تخصصی با ما تماس بگیرید.
+                            </p>
+
+                            <a
+                                href="#contact"
+                                class="btn btn-primary"
+                            >
+                                مشاوره رایگان
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ABOUT / WHY US
+        ================================================== -->
+
+        <section
+            id="about"
+            class="section about-section"
+        >
+
+            <div class="container about-container">
+
+                <div class="about-content">
+
+                    <span class="section-kicker">
+                        چرا ما؟
+                    </span>
+
+                    <h2>
+                        حمل بار فقط جابه‌جایی نیست؛
+                        اعتماد است.
+                    </h2>
+
+                    <p>
+                        هدف ما ایجاد تجربه‌ای ساده،
+                        شفاف و قابل اعتماد برای مشتریان،
+                        رانندگان و صاحبان کسب‌وکار است.
+                    </p>
+
+
+                    <div class="benefits-list">
+
+                        <div class="benefit-item">
+
+                            <div class="benefit-icon">
+                                ✓
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    فرآیند ساده
+                                </h3>
+
+                                <p>
+                                    ثبت درخواست و مدیریت سفارش
+                                    بدون مراحل پیچیده.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="benefit-item">
+
+                            <div class="benefit-icon">
+                                ✓
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    شفافیت در هزینه
+                                </h3>
+
+                                <p>
+                                    مشاهده و بررسی هزینه حمل
+                                    قبل از ثبت نهایی.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="benefit-item">
+
+                            <div class="benefit-icon">
+                                ✓
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    رهگیری سفارش
+                                </h3>
+
+                                <p>
+                                    دسترسی سریع به وضعیت
+                                    سفارش و بار.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="benefit-item">
+
+                            <div class="benefit-icon">
+                                ✓
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    پشتیبانی حرفه‌ای
+                                </h3>
+
+                                <p>
+                                    همراهی تیم پشتیبانی
+                                    در مراحل مختلف حمل.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-visual">
+
+                    <div class="about-main-card">
+
+                        <span class="about-card-icon">
+                            🚛
+                        </span>
+
+                        <strong>
+                            حمل‌ونقل هوشمند
+                        </strong>
+
+                        <p>
+                            مدیریت ساده‌تر،
+                            سریع‌تر و حرفه‌ای‌تر
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-floating-card about-card-top">
+
+                        <strong>
+                            +۱۰,۰۰۰
+                        </strong>
+
+                        <span>
+                            سفارش موفق
+                        </span>
+
+                    </div>
+
+
+                    <div class="about-floating-card about-card-bottom">
+
+                        <strong>
+                            ۴.۹ ⭐
+                        </strong>
+
+                        <span>
+                            رضایت مشتریان
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             HOW IT WORKS
+        ================================================== -->
+
+        <section
+            id="how-it-works"
+            class="section process-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        فرآیند کار
+                    </span>
+
+                    <h2>
+                        در ۴ مرحله بار خود را ارسال کنید
+                    </h2>
+
+                    <p>
+                        از ثبت درخواست تا تحویل بار،
+                        همه چیز ساده و قابل پیگیری است.
+                    </p>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <div class="process-item">
+
+                        <div class="process-number">
+                            ۱
+                        </div>
+
+                        <div class="process-icon">
+                            📝
+                        </div>
+
+                        <h3>
+                            ثبت درخواست
+                        </h3>
+
+                        <p>
+                            اطلاعات مبدأ، مقصد و بار
+                            را وارد کنید.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-connector"></div>
+
+
+                    <div class="process-item">
+
+                        <div class="process-number">
+                            ۲
+                        </div>
+
+                        <div class="process-icon">
+                            💰
+                        </div>
+
+                        <h3>
+                            استعلام و انتخاب
+                        </h3>
+
+                        <p>
+                            قیمت و گزینه‌های حمل را
+                            بررسی و انتخاب کنید.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-connector"></div>
+
+
+                    <div class="process-item">
+
+                        <div class="process-number">
+                            ۳
+                        </div>
+
+                        <div class="process-icon">
+                            🚚
+                        </div>
+
+                        <h3>
+                            بارگیری و حرکت
+                        </h3>
+
+                        <p>
+                            خودرو به محل بارگیری اعزام
+                            و حمل آغاز می‌شود.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-connector"></div>
+
+
+                    <div class="process-item">
+
+                        <div class="process-number">
+                            ۴
+                        </div>
+
+                        <div class="process-icon">
+                            📍
+                        </div>
+
+                        <h3>
+                            تحویل در مقصد
+                        </h3>
+
+                        <p>
+                            بار به مقصد می‌رسد و
+                            فرآیند سفارش تکمیل می‌شود.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PRICE CALCULATOR
+        ================================================== -->
+
+        <section
+            id="price"
+            class="section price-section"
+        >
+
+            <div class="container">
+
+                <div class="price-box">
+
+                    <div class="price-content">
+
+                        <span class="section-kicker light">
+                            استعلام قیمت
+                        </span>
+
+                        <h2>
+                            هزینه تقریبی حمل را محاسبه کنید
+                        </h2>
+
+                        <p>
+                            اطلاعات اولیه بار را وارد کنید تا
+                            یک برآورد اولیه از هزینه حمل دریافت کنید.
+                        </p>
+
+
+                        <div class="price-features">
+
+                            <span>
+                                ✓ بدون هزینه
+                            </span>
+
+                            <span>
+                                ✓ سریع
+                            </span>
+
+                            <span>
+                                ✓ آنلاین
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <form
+                        id="priceCalculatorForm"
+                        class="price-form"
+                    >
+
+                        <div class="form-group">
+
+                            <label for="priceVehicle">
+                                نوع خودرو
+                            </label>
+
+                            <select
+                                id="priceVehicle"
+                                name="vehicle"
+                                required
+                            >
+
+                                <option value="">
+                                    انتخاب خودرو
+                                </option>
+
+                                <option value="pickup">
+                                    وانت
+                                </option>
+
+                                <option value="nissan">
+                                    نیسان
+                                </option>
+
+                                <option value="khavar">
+                                    خاور
+                                </option>
+
+                                <option value="truck">
+                                    کامیون
+                                </option>
+
+                                <option value="trailer">
+                                    تریلی
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="price-form-row">
+
+                            <div class="form-group">
+
+                                <label for="priceDistance">
+                                    مسافت
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="priceDistance"
+                                    name="distance"
+                                    placeholder="کیلومتر"
+                                    min="1"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="priceWeight">
+                                    وزن بار
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="priceWeight"
+                                    name="weight"
+                                    placeholder="کیلوگرم"
+                                    min="1"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary btn-full"
+                        >
+                            محاسبه هزینه
+                        </button>
+
+
+                        <div
+                            id="priceResult"
+                            class="price-result"
+                            aria-live="polite"
+                        ></div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TESTIMONIALS
+        ================================================== -->
+
+        <section class="section testimonials-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        تجربه مشتریان
+                    </span>
+
+                    <h2>
+                        مشتریان درباره ما چه می‌گویند؟
+                    </h2>
+
+                    <p>
+                        رضایت مشتریان یکی از مهم‌ترین
+                        معیارهای موفقیت ماست.
+                    </p>
+
+                </div>
+
+
+                <div class="testimonials-grid">
+
+                    <article class="testimonial-card">
+
+                        <div class="testimonial-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            «فرآیند ثبت سفارش خیلی ساده بود
+                            و توانستم وضعیت بارم را به‌راحتی
+                            پیگیری کنم.»
+                        </p>
+
+                        <div class="testimonial-author">
+
+                            <div class="author-avatar">
+                                م
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    محمد رضایی
+                                </strong>
+
+                                <span>
+                                    صاحب کسب‌وکار
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="testimonial-card">
+
+                        <div class="testimonial-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            «برای ارسال بار بین‌شهری استفاده
+                            کردم و تجربه خوبی داشتم. پشتیبانی
+                            هم پاسخگو بود.»
+                        </p>
+
+                        <div class="testimonial-author">
+
+                            <div class="author-avatar">
+                                س
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    سارا احمدی
+                                </strong>
+
+                                <span>
+                                    مشتری
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="testimonial-card">
+
+                        <div class="testimonial-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            «رهگیری سفارش باعث شد همیشه بدانم
+                            بار در چه مرحله‌ای قرار دارد.»
+                        </p>
+
+                        <div class="testimonial-author">
+
+                            <div class="author-avatar">
+                                ع
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    علی کریمی
+                                </strong>
+
+                                <span>
+                                    مدیر فروش
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FAQ
+        ================================================== -->
+
+        <section
+            id="faq"
+            class="section faq-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        سوالات متداول
+                    </span>
+
+                    <h2>
+                        پاسخ سوالات شما
+                    </h2>
+
+                    <p>
+                        پاسخ برخی از سوالات رایج درباره
+                        خدمات و فرآیند حمل بار.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-list">
+
+                    <details class="faq-item">
+
+                        <summary>
+                            چگونه سفارش حمل ثبت کنم؟
+                        </summary>
+
+                        <div class="faq-answer">
+
+                            کافی است اطلاعات مبدأ، مقصد،
+                            نوع بار و خودروی موردنظر را
+                            وارد کنید و مراحل ثبت سفارش
+                            را تکمیل کنید.
+
+                        </div>
+
+                    </details>
+
+
+                    <details class="faq-item">
+
+                        <summary>
+                            چگونه بار خود را رهگیری کنم؟
+                        </summary>
+
+                        <div class="faq-answer">
+
+                            پس از ثبت سفارش، یک کد رهگیری
+                            دریافت می‌کنید که با وارد کردن
+                            آن در بخش رهگیری می‌توانید
+                            وضعیت سفارش را مشاهده کنید.
+
+                        </div>
+
+                    </details>
+
+
+                    <details class="faq-item">
+
+                        <summary>
+                            آیا قبل از ثبت سفارش قیمت را می‌بینم؟
+                        </summary>
+
+                        <div class="faq-answer">
+
+                            بله. با استفاده از بخش استعلام
+                            قیمت می‌توانید بر اساس اطلاعات
+                            اولیه بار، هزینه تقریبی را مشاهده کنید.
+
+                        </div>
+
+                    </details>
+
+
+                    <details class="faq-item">
+
+                        <summary>
+                            چه خودروهایی برای حمل در دسترس هستند؟
+                        </summary>
+
+                        <div class="faq-answer">
+
+                            بسته به نوع و حجم بار می‌توانید
+                            از وانت، نیسان، خاور، کامیون و
+                            تریلی استفاده کنید.
+
+                        </div>
+
+                    </details>
+
+
+                    <details class="faq-item">
+
+                        <summary>
+                            آیا امکان دریافت پشتیبانی وجود دارد؟
+                        </summary>
+
+                        <div class="faq-answer">
+
+                            بله. تیم پشتیبانی برای پاسخگویی
+                            به سوالات و پیگیری درخواست‌ها
+                            در کنار شماست.
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CTA
+        ================================================== -->
+
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-box">
+
+                    <div>
+
+                        <span class="cta-kicker">
+                            آماده شروع هستید؟
+                        </span>
+
+                        <h2>
+                            بار خود را با خیال راحت ارسال کنید.
+                        </h2>
+
+                        <p>
+                            همین حالا سفارش حمل خود را ثبت کنید
+                            و فرآیند ارسال را شروع کنید.
+                        </p>
+
+                    </div>
+
+
+                    <div class="cta-actions">
+
+                        <a
+                            href="#order"
+                            class="btn btn-white"
+                        >
+                            ثبت سفارش
+                        </a>
+
+                        <a
+                            href="#contact"
+                            class="btn btn-outline-white"
+                        >
+                            تماس با ما
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ORDER
+        ================================================== -->
+
+        <section
+            id="order"
+            class="section order-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        ثبت سفارش
+                    </span>
+
+                    <h2>
+                        سفارش حمل خود را ثبت کنید
+                    </h2>
+
+                    <p>
+                        اطلاعات بار و مسیر را وارد کنید.
+                        در مراحل بعدی این فرم به سیستم
+                        سفارش واقعی متصل خواهد شد.
+                    </p>
+
+                </div>
+
+
+                <div class="order-layout">
+
+                    <div class="order-info">
+
+                        <div class="order-info-card">
+
+                            <span class="order-info-icon">
+                                📦
+                            </span>
+
+                            <h3>
+                                اطلاعات بار
+                            </h3>
+
+                            <p>
+                                اطلاعات دقیق بار به ما کمک
+                                می‌کند گزینه مناسب حمل را
+                                پیشنهاد دهیم.
+                            </p>
+
+                        </div>
+
+
+                        <div class="order-info-card">
+
+                            <span class="order-info-icon">
+                                📍
+                            </span>
+
+                            <h3>
+                                مسیر حمل
+                            </h3>
+
+                            <p>
+                                مبدأ و مقصد را با دقت وارد کنید
+                                تا مسیر حمل مشخص شود.
+                            </p>
+
+                        </div>
+
+
+                        <div class="order-info-card">
+
+                            <span class="order-info-icon">
+                                🚛
+                            </span>
+
+                            <h3>
+                                انتخاب خودرو
+                            </h3>
+
+                            <p>
+                                خودروی مناسب بر اساس نوع و
+                                وزن بار انتخاب می‌شود.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <form
+                        id="orderForm"
+                        class="order-form"
+                        data-form="order"
+                    >
+
+                        <div class="form-section-title">
+
+                            <h3>
+                                مشخصات سفارش
+                            </h3>
+
+                            <p>
+                                فیلدهای ستاره‌دار الزامی هستند.
+                            </p>
+
+                        </div>
+
+
+                        <div class="form-grid">
+
+                            <div class="form-group">
+
+                                <label for="customerName">
+                                    نام و نام خانوادگی *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="customerName"
+                                    name="customerName"
+                                    placeholder="نام خود را وارد کنید"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="customerPhone">
+                                    شماره موبایل *
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="customerPhone"
+                                    name="phone"
+                                    placeholder="۰۹۱۲۱۲۳۴۵۶۷"
+                                    autocomplete="tel"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="orderOrigin">
+                                    مبدأ *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="orderOrigin"
+                                    name="origin"
+                                    placeholder="شهر یا آدرس مبدأ"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="orderDestination">
+                                    مقصد *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="orderDestination"
+                                    name="destination"
+                                    placeholder="شهر یا آدرس مقصد"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="orderCargo">
+                                    نوع بار *
+                                </label>
+
+                                <select
+                                    id="orderCargo"
+                                    name="cargo"
+                                    required
+                                >
+
+                                    <option value="">
+                                        انتخاب نوع بار
+                                    </option>
+
+                                    <option value="general">
+                                        بار عمومی
+                                    </option>
+
+                                    <option value="industrial">
+                                        صنعتی
+                                    </option>
+
+                                    <option value="food">
+                                        مواد غذایی
+                                    </option>
+
+                                    <option value="fragile">
+                                        شکستنی و حساس
+                                    </option>
+
+                                    <option value="machinery">
+                                        ماشین‌آلات
+                                    </option>
+
+                                    <option value="other">
+                                        سایر
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="orderVehicle">
+                                    نوع خودرو *
+                                </label>
+
+                                <select
+                                    id="orderVehicle"
+                                    name="vehicle"
+                                    required
+                                >
+
+                                    <option value="">
+                                        انتخاب خودرو
+                                    </option>
+
+                                    <option value="pickup">
+                                        وانت
+                                    </option>
+
+                                    <option value="nissan">
+                                        نیسان
+                                    </option>
+
+                                    <option value="khavar">
+                                        خاور
+                                    </option>
+
+                                    <option value="truck">
+                                        کامیون
+                                    </option>
+
+                                    <option value="trailer">
+                                        تریلی
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="orderWeight">
+                                    وزن بار
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="orderWeight"
+                                    name="weight"
+                                    placeholder="وزن به کیلوگرم"
+                                    min="1"
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="orderDate">
+                                    تاریخ پیشنهادی حمل
+                                </label>
+
+                                <input
+                                    type="date"
+                                    id="orderDate"
+                                    name="pickupDate"
+                                >
+
+                            </div>
+
+
+                            <div class="form-group full">
+
+                                <label for="orderDescription">
+                                    توضیحات بار
+                                </label>
+
+                                <textarea
+                                    id="orderDescription"
+                                    name="description"
+                                    placeholder="توضیحات مربوط به بار، بسته‌بندی، شرایط حمل و..."
+                                ></textarea>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="order-form-footer">
+
+                            <div class="order-security-note">
+
+                                🔒 اطلاعات شما برای ثبت
+                                درخواست استفاده می‌شود.
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary"
+                            >
+                                ثبت درخواست حمل
+                                <span>
+                                    ←
+                                </span>
+                            </button>
+
+                        </div>
+
+
+                        <div
+                            id="orderResult"
+                            class="order-result"
+                            aria-live="polite"
+                        ></div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section
+            id="contact"
+            class="section contact-section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        ارتباط با ما
+                    </span>
+
+                    <h2>
+                        همیشه آماده پاسخگویی هستیم
+                    </h2>
+
+                    <p>
+                        برای دریافت مشاوره، پیگیری سفارش یا
+                        سوالات خود با ما در ارتباط باشید.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📞
+                        </div>
+
+                        <h3>
+                            تماس تلفنی
+                        </h3>
+
+                        <p>
+                            پاسخگویی و پشتیبانی
+                        </p>
+
+                        <a href="tel:+982100000000">
+                            ۰۲۱-۰۰۰۰۰۰۰۰
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            ✉️
+                        </div>
+
+                        <h3>
+                            ایمیل
+                        </h3>
+
+                        <p>
+                            ارسال درخواست و پیام
+                        </p>
+
+                        <a href="mailto:info@example.com">
+                            info@example.com
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <h3>
+                            دفتر مرکزی
+                        </h3>
+
+                        <p>
+                            تهران، ایران
+                        </p>
+
+                        <span>
+                            با تعیین وقت قبلی
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            💬
+                        </div>
+
+                        <h3>
+                            پشتیبانی آنلاین
+                        </h3>
+
+                        <p>
+                            پاسخگویی سریع به سوالات
+                        </p>
+
+                        <button
+                            type="button"
+                            id="supportButton"
+                            class="contact-button"
+                        >
+                            شروع گفتگو
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             LOGIN PLACEHOLDER
+        ================================================== -->
+
+        <section
+            id="login"
+            class="login-section"
+        >
+
+            <div class="container">
+
+                <div class="login-promo">
+
+                    <div>
+
+                        <span class="section-kicker">
+                            حساب کاربری
+                        </span>
+
+                        <h2>
+                            سفارش‌های خود را یکجا مدیریت کنید
+                        </h2>
+
+                        <p>
+                            در نسخه بعدی می‌توانید وارد حساب
+                            کاربری خود شوید، سفارش‌های خود را
+                            مشاهده کنید و وضعیت آن‌ها را مدیریت کنید.
+                        </p>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        id="loginButton"
+                        class="btn btn-primary"
+                    >
+                        ورود به حساب کاربری
                     </button>
 
                 </div>
 
-                <small id="tracking-result"></small>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= REQUEST ================= -->
-
-<section class="section request-section" id="request">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span>ثبت سفارش</span>
-
-            <h2>
-                درخواست حمل بار
-            </h2>
-
-            <p>
-                اطلاعات بار خود را وارد کنید تا درخواست شما ثبت شود.
-            </p>
-
-        </div>
-
-
-        <form class="request-form">
-
-            <div class="form-group">
-
-                <label>
-                    نام و نام خانوادگی
-                </label>
-
-                <input
-                    type="text"
-                    placeholder="نام شما"
-                    required
-                >
-
             </div>
 
+        </section>
 
-            <div class="form-group">
-
-                <label>
-                    شماره موبایل
-                </label>
-
-                <input
-                    type="tel"
-                    placeholder="09xxxxxxxxx"
-                    required
-                >
-
-            </div>
+    </main>
 
 
-            <div class="form-group">
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
 
-                <label>
-                    شهر مبدا
-                </label>
+    <footer class="site-footer">
 
-                <input
-                    type="text"
-                    placeholder="مثلاً تهران"
-                    required
-                >
+        <div class="container">
 
-            </div>
+            <div class="footer-grid">
 
+                <div class="footer-brand">
 
-            <div class="form-group">
+                    <a
+                        href="#home"
+                        class="footer-logo"
+                    >
+                        🚛 باربری
+                    </a>
 
-                <label>
-                    شهر مقصد
-                </label>
-
-                <input
-                    type="text"
-                    placeholder="مثلاً مشهد"
-                    required
-                >
-
-            </div>
+                    <p>
+                        راهکاری حرفه‌ای برای مدیریت،
+                        ثبت و رهگیری حمل‌ونقل و باربری.
+                    </p>
 
 
-            <div class="form-group">
+                    <div class="footer-socials">
 
-                <label>
-                    نوع بار
-                </label>
+                        <a
+                            href="#"
+                            aria-label="اینستاگرام"
+                        >
+                            ◎
+                        </a>
 
-                <select required>
+                        <a
+                            href="#"
+                            aria-label="تلگرام"
+                        >
+                            ✈
+                        </a>
 
-                    <option value="">
-                        انتخاب نوع بار
-                    </option>
+                        <a
+                            href="#"
+                            aria-label="واتساپ"
+                        >
+                            ☎
+                        </a>
 
-                    <option>
-                        اثاثیه
-                    </option>
+                    </div>
 
-                    <option>
-                        کالای تجاری
-                    </option>
-
-                    <option>
-                        مواد غذایی
-                    </option>
-
-                    <option>
-                        تجهیزات
-                    </option>
-
-                    <option>
-                        سایر
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label>
-                    وزن تقریبی
-                </label>
-
-                <input
-                    type="number"
-                    placeholder="کیلوگرم"
-                >
-
-            </div>
-
-
-            <div class="form-group full">
-
-                <label>
-                    توضیحات بار
-                </label>
-
-                <textarea
-                    rows="4"
-                    placeholder="توضیحات مربوط به بار..."
-                ></textarea>
-
-            </div>
-
-
-            <div class="form-submit">
-
-                <button
-                    type="submit"
-                    class="btn btn-primary"
-                >
-                    ثبت درخواست حمل 🚚
-                </button>
-
-            </div>
-
-        </form>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section class="about-section" id="about">
-
-    <div class="container about-grid">
-
-        <div class="about-content">
-
-            <span>درباره باربری نوین</span>
-
-            <h2>
-                حمل‌ونقل مدرن،
-                سریع و قابل اعتماد
-            </h2>
-
-            <p>
-                هدف ما ایجاد یک تجربه ساده، سریع و مطمئن
-                برای مشتریان و صاحبان کسب‌وکار است.
-            </p>
-
-            <p>
-                با استفاده از فناوری‌های جدید، سفارش‌ها،
-                رانندگان و وضعیت بارها را به شکل هوشمند مدیریت می‌کنیم.
-            </p>
-
-            <a href="#contact" class="btn btn-primary">
-                ارتباط با ما
-            </a>
-
-        </div>
-
-
-        <div class="about-features">
-
-            <div class="feature">
-                <span>🔐</span>
-                <div>
-                    <h3>امنیت بار</h3>
-                    <p>مدیریت ایمن و اصولی محموله‌ها</p>
                 </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        خدمات
+                    </h3>
+
+                    <a href="#order">
+                        ثبت سفارش
+                    </a>
+
+                    <a href="#price">
+                        استعلام قیمت
+                    </a>
+
+                    <a href="#tracking">
+                        رهگیری بار
+                    </a>
+
+                    <a href="#vehicles">
+                        ناوگان
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        دسترسی سریع
+                    </h3>
+
+                    <a href="#about">
+                        درباره ما
+                    </a>
+
+                    <a href="#how-it-works">
+                        نحوه کار
+                    </a>
+
+                    <a href="#faq">
+                        سوالات متداول
+                    </a>
+
+                    <a href="#contact">
+                        تماس با ما
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h3>
+                        پشتیبانی
+                    </h3>
+
+                    <a href="tel:+982100000000">
+                        ۰۲۱-۰۰۰۰۰۰۰۰
+                    </a>
+
+                    <a href="mailto:info@example.com">
+                        info@example.com
+                    </a>
+
+                    <span>
+                        ۲۴ ساعت شبانه‌روز
+                    </span>
+
+                </div>
+
             </div>
 
 
-            <div class="feature">
-                <span>📍</span>
-                <div>
-                    <h3>رهگیری سفارش</h3>
-                    <p>مشاهده وضعیت بار در مراحل مختلف</p>
-                </div>
-            </div>
-
-
-            <div class="feature">
-                <span>💬</span>
-                <div>
-                    <h3>پشتیبانی</h3>
-                    <p>پاسخگویی به مشتریان و پیگیری سفارش</p>
-                </div>
-            </div>
-
-
-            <div class="feature">
-                <span>⚡</span>
-                <div>
-                    <h3>سرعت بالا</h3>
-                    <p>ثبت و مدیریت سریع درخواست‌ها</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= STATS ================= -->
-
-<section class="stats">
-
-    <div class="container stats-grid">
-
-        <div>
-            <strong>25,000+</strong>
-            <span>بار ارسال‌شده</span>
-        </div>
-
-        <div>
-            <strong>1,200+</strong>
-            <span>مشتری فعال</span>
-        </div>
-
-        <div>
-            <strong>350+</strong>
-            <span>راننده و ناوگان</span>
-        </div>
-
-        <div>
-            <strong>98%</strong>
-            <span>رضایت مشتری</span>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= REVIEWS ================= -->
-
-<section class="section reviews">
-
-    <div class="container">
-
-        <div class="section-title">
-
-            <span>نظرات مشتریان</span>
-
-            <h2>
-                تجربه مشتریان ما
-            </h2>
-
-        </div>
-
-
-        <div class="reviews-grid">
-
-            <article class="review">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
+            <div class="footer-bottom">
 
                 <p>
-                    «ثبت سفارش خیلی راحت بود و بارم دقیقاً
-                    طبق زمان اعلام‌شده به مقصد رسید.»
+                    ©
+                    <span id="year"></span>
+                    تمامی حقوق محفوظ است.
                 </p>
 
-                <strong>
-                    محمد رضایی
-                </strong>
+                <div class="footer-bottom-links">
 
-                <small>
-                    مشتری
-                </small>
+                    <a href="#">
+                        قوانین و مقررات
+                    </a>
 
-            </article>
+                    <a href="#">
+                        حریم خصوصی
+                    </a>
 
+                    <a href="#">
+                        شرایط استفاده
+                    </a>
 
-            <article class="review">
-
-                <div class="stars">
-                    ★★★★★
                 </div>
 
-                <p>
-                    «پشتیبانی خیلی خوب بود و وضعیت بار را
-                    می‌توانستم آنلاین پیگیری کنم.»
-                </p>
-
-                <strong>
-                    علی احمدی
-                </strong>
-
-                <small>
-                    صاحب کسب‌وکار
-                </small>
-
-            </article>
-
-
-            <article class="review">
-
-                <div class="stars">
-                    ★★★★★
-                </div>
-
-                <p>
-                    «برای ارسال‌های شرکتی از این سرویس استفاده
-                    می‌کنیم و مدیریت سفارش‌ها بسیار ساده است.»
-                </p>
-
-                <strong>
-                    سارا کریمی
-                </strong>
-
-                <small>
-                    مدیر شرکت
-                </small>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section class="contact-section" id="contact">
-
-    <div class="container contact-grid">
-
-        <div>
-
-            <span>تماس با ما</span>
-
-            <h2>
-                آماده پاسخگویی به شما هستیم
-            </h2>
-
-            <p>
-                برای دریافت مشاوره، ثبت سفارش یا پیگیری درخواست
-                با ما در ارتباط باشید.
-            </p>
-
-        </div>
-
-
-        <div class="contact-info">
-
-            <div>
-                <span>📞</span>
-                <div>
-                    <small>شماره تماس</small>
-                    <strong>021-12345678</strong>
-                </div>
-            </div>
-
-
-            <div>
-                <span>📱</span>
-                <div>
-                    <small>پشتیبانی</small>
-                    <strong>09120000000</strong>
-                </div>
-            </div>
-
-
-            <div>
-                <span>✉️</span>
-                <div>
-                    <small>ایمیل</small>
-                    <strong>info@example.com</strong>
-                </div>
             </div>
 
         </div>
 
-    </div>
-
-</section>
-
-</main>
+    </footer>
 
 
-<!-- ================= FOOTER ================= -->
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
 
-<footer class="footer">
-
-    <div class="container footer-grid">
-
-        <div>
-
-            <a href="#" class="logo">
-                🚛 باربری نوین
-            </a>
-
-            <p>
-                راهکار حرفه‌ای برای حمل‌ونقل و مدیریت بار.
-            </p>
-
-        </div>
-
-
-        <div>
-
-            <h3>دسترسی سریع</h3>
-
-            <a href="#home">خانه</a>
-            <a href="#services">خدمات</a>
-            <a href="#tracking">رهگیری بار</a>
-            <a href="#request">ثبت درخواست</a>
-
-        </div>
-
-
-        <div>
-
-            <h3>خدمات</h3>
-
-            <a href="#services">حمل بین‌شهری</a>
-            <a href="#services">خرده‌بار</a>
-            <a href="#services">حمل سازمانی</a>
-            <a href="#services">ارسال سریع</a>
-
-        </div>
-
-
-        <div>
-
-            <h3>ارتباط با ما</h3>
-
-            <p>📞 021-12345678</p>
-            <p>📧 info@example.com</p>
-            <p>📍 تهران، ایران</p>
-
-        </div>
-
-    </div>
-
-
-    <div class="footer-bottom">
-
-        © 2026 باربری نوین — تمامی حقوق محفوظ است.
-
-    </div>
-
-</footer>
-
-
-<script>
-
-    // رهگیری آزمایشی
-    const trackingForm = document.querySelector(".tracking-form");
-
-    trackingForm.addEventListener("submit", function(event) {
-
-        event.preventDefault();
-
-        const code = document.querySelector("#tracking-code").value.trim();
-        const result = document.querySelector("#tracking-result");
-
-        if (!code) {
-            result.textContent = "لطفاً کد رهگیری را وارد کنید.";
-            return;
-        }
-
-        result.textContent =
-            "در نسخه آزمایشی، سیستم رهگیری آماده اتصال به پنل مدیریت است.";
-
-    });
-
-
-    // فرم درخواست
-    const requestForm = document.querySelector(".request-form");
-
-    requestForm.addEventListener("submit", function(event) {
-
-        event.preventDefault();
-
-        alert(
-            "درخواست شما در نسخه آزمایشی دریافت شد. در مرحله بعد آن را به سیستم واقعی متصل می‌کنیم."
-        );
-
-    });
-
-
-    // منوی موبایل
-    const mobileMenu = document.querySelector(".mobile-menu");
-    const menu = document.querySelector(".menu");
-
-    mobileMenu.addEventListener("click", function() {
-
-        menu.classList.toggle("show");
-
-    });
-
-</script>
+    <script src="script.js"></script>
 
 </body>
-  </html>
+
+    </html>
